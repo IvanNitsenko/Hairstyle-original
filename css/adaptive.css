@@ -1,0 +1,1417 @@
+@media screen and (max-width: 1433px) {
+    #about-me #i {
+        padding: 23px 20px 69px 20px;
+    }
+
+    #plus-container {
+        padding: 154px 20px 150px 20px;
+    }
+
+    #works-container {
+        padding: 154px 20px 150px 20px;
+    }
+
+    #gallery-hairstyle {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    #gallery-hairstyle .slick-prev {
+        left: calc(50% + 450px);
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 558px);
+    }
+
+    #gallery-decoration .slick-prev {
+        left: calc(50% + 450px);
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 558px);
+    }
+
+    #gallery-decoration .gallery-decoration-img {
+        width: 550px;
+        height: 520px;
+    }
+
+    #price #price-container {
+        padding: 154px 20px 150px 20px;
+    }
+
+    #reviews-container {
+        padding: 153px 20px 150px 20px;
+    }
+
+    #reviews-container .review-block {
+        width: 1014px;
+        padding: 111px 65px 111px 57px;
+    }
+
+    #reviews-container #reviews-gallery {
+        width: 1014px;
+    }
+
+    #reviews-container .slick-prev {
+        top: 245px;
+        left: -50px;
+    }
+
+    #reviews-container .slick-next {
+        top: 245px;
+        right: 10px;
+    }
+
+    #reviews-container .slick-prev:before {
+        content: url("../images/left2.svg");
+    }
+
+    #reviews-container .slick-next:before {
+        content: url("../images/right2.svg");
+    }
+
+    #reviews-container .review-block .review-image {
+        margin-right: 10px;
+    }
+
+    #footer-container #iphone {
+        right: -620px;
+    }
+
+}
+
+@media screen and (max-width: 1340px) {
+    #main-title {
+        font-size: 48px;
+    }
+
+    #main-text {
+        font-size: 29px;
+    }
+
+    #plus-container {
+        max-width: 632px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    #plus-container .plus-block #plus-title {
+        text-align: center;
+        margin: 0 auto 50px auto;
+    }
+
+    #plus-container .plus-block .plus-text {
+        margin-bottom: 50px;
+    }
+
+    #plus-container .plus-block #plus-img-1 {
+        margin-bottom: 50px;
+    }
+
+    #plus-container .plus-block .plus-text:last-child {
+        margin-top: 50px;
+    }
+    #text-1-variant-2 {
+        display: block;
+    }
+
+    #number-1-variant-2 {
+        display: block;
+    }
+
+    #img-1-variant-2 {
+        display: block;
+    }
+
+    #text-2-variant-2 {
+        display: block;
+    }
+
+    #number-2-variant-2 {
+        display: block;
+    }
+
+    #img-2-variant-2 {
+        display: block;
+    }
+
+    #text-1-variant-1 {
+        display: none;
+    }
+
+    #number-1-variant-1 {
+        display: none;
+    }
+
+    #img-1-variant-1 {
+        display: none;
+    }
+
+    #text-2-variant-1 {
+        display: none;
+    }
+
+    #number-2-variant-1 {
+        display: none;
+    }
+
+    #img-2-variant-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #main {
+        background: white;
+    }
+
+    #main-bg {
+        display: block;
+    }
+
+    #menu {
+        width: 390px;
+    }
+
+    #header-phone-block {
+        margin-left: 80px;
+    }
+
+    #main-title {
+        font-size: 38px;
+        width: 650px;
+        line-height: 40px;
+    }
+
+
+    #main-text-br {
+        display: block;
+    }
+
+    #about-me #i {
+       justify-content: center;
+    }
+
+    #about-me #i-photo {
+        width: 437px;
+        height: 465px;
+        margin-right: 30px;
+    }
+
+    #about-me #i-text {
+        width: 450px;
+    }
+
+    #about-me #i-text #i-title {
+        font-size: 30px;
+    }
+
+    #about-me #i-text #i-credo {
+        font-size: 18px;
+        margin-bottom: 27px;
+    }
+
+    #about-me #i-text .i-description {
+        width: 450px;
+        font-size: 20px;
+    }
+
+    #plus-container {
+        padding: 70px 20px 70px 20px;
+    }
+
+    #works-container {
+        padding: 70px 20px 70px 20px;
+    }
+
+    #works-container #works-container-title {
+        margin-bottom: 52px;
+        text-align: center;
+    }
+
+    #works-container #works-title .work-title {
+        font-size: 26px;
+        padding-bottom: 26px;
+    }
+
+    #works-container #works-title {
+        margin-bottom: 35px;
+    }
+
+    #gallery-hairstyle .slick-prev {
+        left: calc(50% + 350px);
+        top: -80px;
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 458px);
+        top: -80px;
+    }
+
+    #gallery-decoration .slick-prev {
+        left: calc(50% + 350px);
+        top: -80px;
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 458px);
+        top: -80px;
+    }
+
+    #price #price-container {
+        padding: 70px 20px 70px 20px;
+    }
+
+    #price #price-container-title {
+        margin-bottom: 52px;
+    }
+
+    #reviews-container {
+        padding: 70px 20px 70px 20px;
+    }
+
+    #price .price-text {
+        font-size: 32px;
+    }
+
+    #price #price-block-container {
+        flex-wrap: wrap;
+        max-width: 408px;
+        margin: 0 auto 30px auto;
+    }
+
+    #price #price-block-container .price-block {
+        margin-bottom: 90px;
+    }
+
+    #price #price-block-container .price-block .sale, #price #price-block-container .price-block #left-sale, #price #price-block-container .price-block #right-sale {
+        bottom: -45px;
+        left: calc(50% - 141px);
+    }
+
+    #reviews-container #reviews-title {
+        margin-bottom: 62px;
+    }
+
+    #reviews-container .review-block {
+        width: 814px;
+        padding: 81px 65px 81px 57px;
+        height: 420px;
+    }
+
+    #reviews-container #reviews-gallery {
+        width: 814px;
+    }
+
+    #reviews-container .review-block .review-text {
+        font-size: 21px;
+    }
+
+    #reviews-container .review-block .data-name span {
+        font-size: 21px;
+    }
+
+    #reviews-container .review-block .review-text-block {
+        width: 450px;
+    }
+
+    #reviews-container .review-block .review-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    #reviews-container .slick-prev {
+        top: 165px;
+    }
+
+    #reviews-container .slick-next {
+        top: 165px;
+    }
+
+    #plus-container .plus-block #plus-title, #works-container #works-container-title, #works-container #works-container-title, #reviews-container #reviews-title, #footer-container #footer-text-block #footer-text-title, #price #price-container-title {
+        font-size: 38px;
+    }
+
+    #plus-container .plus-block #plus-title {
+        max-width: 465px;
+    }
+
+    #footer-container #footer-text-block #instagram-title {
+        font-size: 30px;
+    }
+
+    #footer-container {
+        padding: 70px 20px 50px 20px;
+    }
+
+    #footer {
+        background: rgb(224,229,230);
+        background: linear-gradient(90deg, rgba(224,229,230,1) 65%, rgba(255,239,239,1) 65%);
+    }
+
+    #footer-container #iphone {
+        position: absolute;
+        width: 450px;
+        height: 593px;
+        bottom: -50px;
+        right: -420px;
+        z-index: 50;
+    }
+
+    #footer-container #footer-text-block #footer-text-title {
+        margin-bottom: 40px;
+    }
+
+    #footer-container #footer-text-block #instagram-title {
+        margin-bottom: 33px;
+    }
+
+    .br-i-description {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #main {
+        height: 668px;
+    }
+
+    #main-container {
+        padding: 30px 20px 0 20px;
+    }
+
+    #main-container #main-block {
+        height: 420px;
+        margin-top: -120px;
+    }
+
+    #main-text {
+        margin-bottom: 85px;
+    }
+
+    #header {
+        margin: 0 auto 65px auto;
+        height: 29px;
+    }
+
+    #main-bg {
+        display: none;
+    }
+
+    #main-bg2 {
+       display: block;
+    }
+
+    #reserve {
+        width: 180px;
+        font-size: 18px;
+        padding: 20px 34px;
+        margin-right: 24px;
+    }
+
+    #watch {
+        width: 230px;
+        font-size: 18px;
+        padding: 20px 28px;
+    }
+
+    #about-me {
+        background: #E0E5E6;
+    }
+
+    #about-me #i {
+        flex-wrap: wrap;
+        padding: 30px 70px 30px 70px;
+        box-sizing: border-box;
+        max-width: 600px;
+    }
+
+    #about-me #i-photo {
+        margin-right: 0;
+    }
+
+    #price .price-text:last-child {
+        width: 680px;
+    }
+
+    #gallery-hairstyle {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    #gallery-decoration {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    #works-container #works-title {
+        margin: 0 auto 100px auto;
+        justify-content: center;
+    }
+
+    #gallery-hairstyle .slick-prev {
+        left: 130px;
+        top: -50px;
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 203px);
+        top: -50px;
+    }
+
+    #gallery-decoration .slick-prev {
+        left: 130px;
+        top: -50px;
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 203px);
+        top: -50px;
+    }
+
+    #works-container #works-title .work-title {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+
+    #reviews-container #reviews-gallery {
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #reviews-container .review-block {
+        width: 600px;
+        height: 500px;
+        flex-wrap: wrap;
+        padding: 20px 65px 20px 65px;
+        justify-content: center;
+    }
+
+    #reviews-container .review-block .review-image {
+        text-align: center;
+        margin: 0 auto 20px auto;
+    }
+
+    #reviews-container .review-block .review-text {
+        text-align: center;
+    }
+
+    #reviews-container .review-block .review-text-block .data-name {
+        text-align: center;
+    }
+
+    #reviews-container .slick-prev {
+        top: 210px;
+    }
+
+    #reviews-container .slick-next {
+        top: 210px;
+    }
+
+    #footer-container #footer-text-block #instagram-title {
+        font-size: 24px;
+    }
+
+    #footer-container #footer-text-block #instagram-text {
+        font-size: 18px;
+        width: 290px;
+    }
+
+    #footer-container #footer-text-block #instagram-svg {
+        margin-right: 10px;
+    }
+
+    #footer-container #footer-text-block #faq {
+        width: 215px;
+        font-size: 20px;
+    }
+
+    #footer-container #footer-text-block #phone-footer {
+        font-size: 20px;
+    }
+
+    #footer-svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #footer-container {
+        padding: 30px 20px 30px 20px;
+    }
+
+    #footer {
+        background: rgb(224,229,230);
+        background: linear-gradient(90deg, rgba(224,229,230,1) 70%, rgba(255,239,239,1) 70%);
+    }
+
+    #footer-container #iphone {
+        width: 380px;
+        height: 500px;
+        bottom: -30px;
+        right: -350px;
+    }
+
+    #form-container {
+        width: 390px;
+        padding: 30px;
+    }
+
+    #form-container .close {
+        right: -50px;
+    }
+
+    #form-container .input {
+        width: 330px;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+    }
+
+    #form-container .input::placeholder {
+        font-size: 20px;
+    }
+
+    #form-container #form-down {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+
+    #form-container #form-down #footnote {
+        font-size: 16px;
+        width: 330px;
+        text-align: center;
+    }
+
+    #form-container #form-down #reserve-button {
+        margin: 15px auto 0 auto;
+    }
+
+    #form-container #form-down #reserved-button {
+        width: 180px;
+        height: 60px;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 33px;
+        text-align: center;
+    }
+
+    #form-answer {
+        width: 350px;
+        padding: 30px;
+    }
+
+    #form-answer .close {
+        right: -50px;
+    }
+
+    #form-answer #form-answer-title {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    #form-answer #carry {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    #form-answer #form-answer-text {
+        width: 290px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    #about-me #i-photo {
+        width: 281px;
+        height: 300px;
+    }
+
+    #about-me #i-text #i-title {
+        text-align: center;
+    }
+
+    #plus-container .plus-block .plus-img {
+        width: 477px;
+        height: 300px;
+        margin: 0 auto 50px auto;
+    }
+
+    #plus-container .plus-block .plus-text {
+        width: 477px;
+        padding-left: 125px;
+    }
+
+    #plus-container .plus-block .plus-text-block {
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    #plus-container .plus-block .number {
+        top: -50px;
+        left: 25px;
+        font-size: 140px;
+    }
+
+    #plus-container .plus-block .plus-text {
+        margin: 0 auto 50px auto;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #footer-container #iphone {
+        right: -260px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #watch {
+        display: none;
+    }
+
+    #reserve {
+        width: 220px;
+        font-size: 23px;
+        padding: 22px 41px;
+        margin-right: 0;
+    }
+
+    #footer-container #iphone {
+        right: -185px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #main-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #main-container {
+        height: 700px;
+    }
+
+    #header {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #header #menu {
+        display: none;
+    }
+
+    #header-phone-block {
+        margin-left: 0;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #main-title {
+        font-size: 36px;
+        width: 460px;
+        margin-bottom: 50px;
+    }
+
+    #main-text {
+        font-size: 28px;
+        margin-bottom: 70px;
+    }
+
+    #main-container #main-block {
+        margin-top: -140px;
+    }
+
+    #main-bg2 {
+        width: 594px;
+        height: 700px;
+        bottom: 33px;
+        right: -300px;
+    }
+
+    #about-me #i-text #i-title {
+        font-size: 26px;
+    }
+
+    #plus-container .plus-block #plus-title, #works-container #works-container-title, #works-container #works-container-title, #reviews-container #reviews-title, #footer-container #footer-text-block #footer-text-title, #price #price-container-title {
+        font-size: 30px;
+    }
+
+    #plus-container .plus-block .number {
+        font-size: 120px;
+    }
+
+    #works-container #works-title .work-title {
+        font-size: 22px;
+        padding-bottom: 22px;
+    }
+
+    #gallery-hairstyle {
+        width: 400px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img {
+        width: 270px;
+        height: 350px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img img {
+        width: 270px;
+        height: 350px;
+    }
+
+    #gallery-decoration {
+        width: 400px;
+    }
+
+    #gallery-decoration .gallery-decoration-img {
+        width: 390px;
+        height: 350px;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+        width: 390px;
+        height: 350px;
+    }
+
+    #gallery-hairstyle .slick-prev {
+        left: 65px;
+        top: -60px;
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 118px);
+        top: -60px;
+    }
+
+    #gallery-decoration .slick-prev {
+        left: 65px;
+        top: -60px;
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 118px);
+        top: -60px;
+    }
+
+    #price #price-block-container .price-block .price-title {
+        font-size: 28px;
+    }
+
+    #price #price-container-title {
+        margin-bottom: 35px;
+    }
+
+    #price #price-block-container .price-block .price-block-bg {
+        width: 280px;
+        height: 262px;
+        padding-top: 10px;
+    }
+
+    #price #price-block-container .price-block .sale, #price #price-block-container .price-block #left-sale, #price #price-block-container .price-block #right-sale {
+        bottom: -35px;
+        left: calc(50% - 100px);
+        font-size: 28px;
+        width: 200px;
+        height: 65px;
+    }
+
+    #price .price-text:last-child {
+        width: auto;
+        margin: 25px auto 0 auto;
+    }
+
+    #price .price-text {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #price #price-block-container {
+        margin: 0 auto 5px auto;
+    }
+
+    #reviews-container #reviews-title {
+        margin-bottom: 40px;
+    }
+
+    #reviews-container #reviews-gallery {
+        width: 340px;
+    }
+
+    #reviews-container .review-block {
+        width: 340px;
+        height: 430px;
+        padding: 20px 30px;
+    }
+
+    #reviews-container .review-block .review-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    #reviews-container .review-block .review-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    #reviews-container .review-block .review-text br {
+       display: none;
+    }
+
+    #reviews-container .review-block .review-text-block .data-name {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #reviews-container .review-block .review-text-block .data-name span {
+        font-size: 16px;
+    }
+
+    #reviews-container .review-block .data-name .name {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    #reviews-container .review-block .data-name .data {
+       text-align: center;
+        width: 100%;
+    }
+
+    #reviews-container .slick-prev {
+        left: -55px;
+        top: 170px;
+    }
+
+    #reviews-container .slick-next {
+        right: 5px;
+        top: 170px;
+    }
+
+    #footer {
+        background: rgb(224,229,230);
+    }
+
+    #footer-container #iphone {
+        display: none;
+    }
+
+    #footer-container #footer-text-block {
+       text-align: center;
+        width: 100%;
+    }
+
+    #footer-container #footer-text-block #instagram-block {
+        text-align: left;
+        margin: 0 auto 45px auto;
+        width: 420px;
+    }
+
+    #footer-container #footer-text-block #faq {
+        text-align: center;
+        margin: 0 auto 30px auto;
+    }
+
+    #footer-container #footer-text-block #footer-container-phone {
+        text-align: center;
+        width: 220px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    #header #menu {
+        top: 0;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        margin-left: -20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header #menu #menu-container {
+        width: 296px;
+        background: #BECDCD;
+        border-radius: 32px;
+        box-sizing: border-box;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #header #menu .menu-item {
+        background: #BECDCD;
+        box-sizing: border-box;
+        padding: 25px;
+        border: 1px solid #BECDCD;
+        font-size: 40px;
+        line-height: 62px;
+        border-radius: 32px;
+        width: 296px;
+    }
+
+    #header #menu a {
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    #header #menu .menu-item:hover {
+        background: #FFEFEF;
+        border: 1px solid #FFEFEF;
+        transform: none;
+        box-sizing: border-box;
+    }
+
+    #header.menu-open #menu {
+        display: block;
+    }
+
+    #header-close {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    #header-phone-block {
+        font-size: 22px;
+    }
+
+    #main-title {
+        width: 280px;
+        margin-bottom: 45px;
+        line-height: 42px;
+        font-size: 44px;
+    }
+
+    #main-title-br {
+        display: block;
+    }
+
+    #main-text {
+        display: none;
+    }
+
+    #main-title span {
+        font-size: 28px;
+    }
+
+    #reserve {
+        width: 180px;
+        font-size: 20px;
+        padding: 18px 29px;
+    }
+
+    #main-bg2 {
+        width: 594px;
+        height: 700px;
+        bottom: 33px;
+        right: -345px;
+    }
+
+    #plus-container .plus-block #plus-title, #works-container #works-container-title, #works-container #works-container-title, #reviews-container #reviews-title, #footer-container #footer-text-block #footer-text-title, #price #price-container-title {
+        font-size: 26px;
+    }
+
+    #about-me #i {
+        padding: 15px 50px 15px 50px;
+        max-width: 340px;
+    }
+
+    #about-me #i-text #i-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #about-me #i-text #i-credo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #about-me #i-text .i-description {
+        max-width: 310px;
+        font-size: 16px;
+    }
+
+    #about-me #i-text .i-description br {
+        display: none;
+    }
+
+    #about-me #i-text .i-description #br-i-description-mobile {
+        display: block;
+    }
+
+    #about-me #i-text .i-description:last-child {
+        margin-top: 20px;
+    }
+
+    #about-me #i-photo {
+        width: 215px;
+        height: 240px;
+        margin-bottom: 5px;
+    }
+
+    #plus-container .plus-block .plus-img {
+        width: 280px;
+        height: 176px;
+        margin: 0 auto 50px auto;
+    }
+
+    #plus-container .plus-block .plus-text {
+        width: 280px;
+        padding-left: 0;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    #plus-container .plus-block #plus-title {
+        max-width: 330px;
+    }
+
+    #plus-container .plus-block .number {
+        font-size: 90px;
+        top: -55px;
+        left: 112px;
+    }
+
+    #plus-container .plus-block .plus-text:last-child {
+        padding-top: 40px;
+    }
+
+    #plus-container .plus-block .number #number-1-variant-2 {
+        margin-left: 8px;
+    }
+
+    #plus-container .plus-block .plus-text-block {
+       font-size: 16px;
+    }
+
+    #works-container #works-container-title {
+        margin-bottom: 40px;
+    }
+
+    #works-container #works-title .work-title {
+        font-size: 20px;
+        padding: 0 10px 16px 10px;
+    }
+
+    #works-container #works-title {
+        width: 280px;
+    }
+
+    #gallery-hairstyle .slick-prev {
+        left: 64px;
+        top: -60px;
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 120px);
+        top: -60px;
+    }
+
+    #gallery-decoration .slick-prev {
+        left: 64px;
+        top: -60px;
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 120px);
+        top: -60px;
+    }
+
+    #price #price-block-container .price-block .price-title {
+        font-size: 22px;
+    }
+
+    #price .price-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #reviews-container .review-block .review-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    #reviews-container .slick-next:before {
+        content: url("../images/right3.svg");
+    }
+
+    #reviews-container .slick-prev:before {
+        content: url("../images/left3.svg");
+    }
+
+    #reviews-container .slick-next {
+        right: 50px;
+        top: 163px;
+    }
+
+    #reviews-container .slick-prev {
+        left: 30px;
+        top: 163px;
+    }
+
+    #reviews-container {
+        padding: 50px 20px 0 20px;
+    }
+
+    #footer-container #footer-text-block #instagram-title {
+        font-size: 21px;
+    }
+
+    #footer-container #footer-text-block #instagram-block {
+        text-align: left;
+        margin: 0 auto 30px auto;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    #footer-container #footer-text-block #instagram-svg {
+        margin: 0 auto 20px auto;
+    }
+
+    #footer-container #footer-text-block #instagram-text {
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+
+    #footer-container #footer-text-block #faq {
+        margin: 0 auto 20px auto;
+        font-size: 18px;
+    }
+
+    #footer-container #footer-text-block #phone-footer {
+        font-size: 18px;
+    }
+
+    #form-container {
+        width: 320px;
+        padding: 15px;
+    }
+
+    #form-container .input {
+        width: 290px;
+        font-size: 18px;
+    }
+
+    #form-container .input::placeholder {
+        font-size: 18px;
+    }
+
+    #form-container #form-down #footnote {
+        font-size: 15px;
+        width: 290px;
+    }
+
+    #form-container #form-down #reserved-button {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    #footnote-br {
+        display: block;
+    }
+
+    #form-container #form-down {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #header #menu #menu-container {
+        width: 240px;
+    }
+
+    #header #menu .menu-item {
+        padding: 25px 5px;
+        line-height: 45px;
+        width: 240px;
+    }
+
+    #main-title {
+        width: 280px;
+        margin-bottom: 45px;
+        line-height: 38px;
+    }
+
+    #gallery-decoration {
+        width: 280px;
+    }
+
+    #gallery-decoration .gallery-decoration-img {
+        width: 280px;
+        height: 250px;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+        width: 280px;
+        height: 250px;
+    }
+
+    #form-answer {
+        width: 200px;
+        padding: 15px;
+    }
+
+    #form-answer #form-answer-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    #form-answer #carry {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #form-answer #form-answer-text {
+        width: 170px;
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    #form-container {
+        width: 220px;
+        padding: 10px;
+    }
+
+    #form-container .input {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    #form-container .input::placeholder {
+        font-size: 15px;
+    }
+
+    #form-container #form-down #footnote {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    #form-container #form-down #reserved-button {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #form-container .close {
+        right: -38px;
+    }
+
+    #gallery-hairstyle {
+        width: 280px;
+    }
+
+    #gallery-decoration {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    #header #menu #menu-container {
+        width: 200px;
+    }
+
+    #header #menu .menu-item {
+        padding: 20px 5px;
+        line-height: 45px;
+        width: 200px;
+    }
+
+    #header #menu a {
+        font-size: 32px;
+    }
+
+    #main-container #main-block {
+        margin-top: -160px;
+    }
+
+    #main-title {
+        width: 220px;
+        line-height: 36px;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    #about-me #i-text .i-description {
+        max-width: 280px;
+        font-size: 15px;
+    }
+
+    #plus-container {
+        padding: 50px 20px 50px 20px;
+        justify-content: center;
+    }
+
+    #plus-container {
+        max-width: 280px;
+    }
+
+    #plus-container .plus-block {
+        width: 280px;
+    }
+
+    #plus-container .plus-block #plus-title {
+        max-width: 230px;
+    }
+
+    #reviews-container #reviews-gallery {
+        width: 280px;
+    }
+
+    #footer-container #footer-text-block #instagram-text {
+        width: 280px;
+    }
+
+    #reviews-container .review-block {
+        height: 440px;
+    }
+
+    #reviews-container .slick-next {
+        top: 160px;
+    }
+
+    #reviews-container .slick-prev {
+        top: 160px;
+    }
+
+    #gallery-hairstyle {
+        width: 280px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img {
+        width: 280px;
+        height: 362px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img img {
+        width: 280px;
+        height: 362px;
+    }
+
+    #gallery-decoration {
+        width: 280px;
+    }
+
+    #gallery-decoration .gallery-decoration-img {
+        width: 280px;
+        height: 362px;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+        width: 280px;
+        height: 362px;
+    }
+
+
+
+
+}

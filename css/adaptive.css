@@ -432,18 +432,36 @@
         margin-right: 0;
     }
 
+    #about-me #i-text #i-credo {
+       text-align: center;
+    }
+
+    #about-me #i-text .i-description {
+        text-align: center;
+    }
+
+    #about-me #i {
+        padding-bottom: 45px;
+    }
+
     #price .price-text:last-child {
         width: 680px;
     }
 
     #gallery-hairstyle {
-        width: 700px;
+        width: 436px;
         margin: 0 auto;
     }
 
     #gallery-decoration {
-        width: 700px;
+        width: 436px;
         margin: 0 auto;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+        margin: 0 auto;
+        width: 436px;
+        height: 390px;
     }
 
     #works-container #works-title {
@@ -452,7 +470,7 @@
     }
 
     #gallery-hairstyle .slick-prev {
-        left: 130px;
+        left: -2px;
         top: -50px;
     }
 
@@ -462,7 +480,7 @@
     }
 
     #gallery-decoration .slick-prev {
-        left: 130px;
+        left: -2px;
         top: -50px;
     }
 
@@ -752,21 +770,21 @@
     }
 
     #gallery-hairstyle {
-        width: 400px;
+        width: 390px;
     }
 
     #gallery-hairstyle .gallery-hairstyle-img {
-        width: 270px;
-        height: 350px;
+        width: 390px;
+        height: 504px;
     }
 
     #gallery-hairstyle .gallery-hairstyle-img img {
-        width: 270px;
-        height: 350px;
+        width: 390px;
+        height: 504px;
     }
 
     #gallery-decoration {
-        width: 400px;
+        width: 390px;
     }
 
     #gallery-decoration .gallery-decoration-img {
@@ -780,22 +798,22 @@
     }
 
     #gallery-hairstyle .slick-prev {
-        left: 65px;
+        left: -1px;
         top: -60px;
     }
 
     #gallery-hairstyle .slick-next {
-        right: calc(50% - 118px);
+        right: calc(50% - 180px);
         top: -60px;
     }
 
     #gallery-decoration .slick-prev {
-        left: 65px;
+        left: -1px;
         top: -60px;
     }
 
     #gallery-decoration .slick-next {
-        right: calc(50% - 118px);
+        right: calc(50% - 180px);
         top: -60px;
     }
 
@@ -931,7 +949,7 @@
         width: 100%;
         height: 100%;
         text-align: center;
-        display: flex;
+        display: none;
         margin: auto;
         margin-left: -20px;
         justify-content: center;
@@ -1022,7 +1040,7 @@
     }
 
     #about-me #i {
-        padding: 15px 50px 15px 50px;
+        padding: 15px 50px 30px 50px;
         max-width: 340px;
     }
 
@@ -1092,39 +1110,6 @@
 
     #plus-container .plus-block .plus-text-block {
        font-size: 16px;
-    }
-
-    #works-container #works-container-title {
-        margin-bottom: 40px;
-    }
-
-    #works-container #works-title .work-title {
-        font-size: 20px;
-        padding: 0 10px 16px 10px;
-    }
-
-    #works-container #works-title {
-        width: 280px;
-    }
-
-    #gallery-hairstyle .slick-prev {
-        left: 64px;
-        top: -60px;
-    }
-
-    #gallery-hairstyle .slick-next {
-        right: calc(50% - 120px);
-        top: -60px;
-    }
-
-    #gallery-decoration .slick-prev {
-        left: 64px;
-        top: -60px;
-    }
-
-    #gallery-decoration .slick-next {
-        right: calc(50% - 120px);
-        top: -60px;
     }
 
     #price #price-block-container .price-block .price-title {
@@ -1226,6 +1211,12 @@
     }
 }
 
+@media screen and (max-width: 520px) {
+    #works-container #works-title {
+        width: 440px;
+    }
+}
+
 @media screen and (max-width: 479px) {
     #header #menu #menu-container {
         width: 240px;
@@ -1243,6 +1234,19 @@
         line-height: 38px;
     }
 
+    #works-container #works-container-title {
+        margin-bottom: 40px;
+    }
+
+    #works-container #works-title .work-title {
+        font-size: 20px;
+        padding: 0 10px 16px 10px;
+    }
+
+    #works-container #works-title {
+        width: 280px;
+    }
+
     #gallery-decoration {
         width: 280px;
     }
@@ -1255,6 +1259,16 @@
     #gallery-decoration .gallery-decoration-img img {
         width: 280px;
         height: 250px;
+    }
+
+    #gallery-hairstyle .slick-next {
+        right: calc(50% - 120px);
+        top: -60px;
+    }
+
+    #gallery-decoration .slick-next {
+        right: calc(50% - 120px);
+        top: -60px;
     }
 
     #form-answer {
@@ -1410,8 +1424,4 @@
         width: 280px;
         height: 362px;
     }
-
-
-
-
 }

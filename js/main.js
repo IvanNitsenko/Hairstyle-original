@@ -51,6 +51,12 @@ $(document).ready(() => {
         ]
     });
 
+    $('.work-title').click((e) => {
+        galleryHairstyle.slick('refresh');
+        galleryDecoration.slick('refresh');
+    });
+
+
     hairstyle.click((e) => {
         galleryHairstyle.css('display', 'block');
         galleryDecoration.css('display', 'none');
@@ -93,6 +99,7 @@ $(document).ready(() => {
     $('#reserved-button').on('click', function () {
         let name = $('#name');
         let phone = $('#form-phone');
+        let info = $('#info');
         let hasError = false;
         name.attr("placeholder", 'Ваше имя*');
         phone.attr("placeholder", 'Ваш телефон*');
@@ -117,7 +124,7 @@ $(document).ready(() => {
             $.ajax({
                 method: "POST",
                 url: '',
-                data: {name: name.val(), phone: phone.val(), procedure: procedure.val(), time: time.val()}
+                data: {name: name.val(), phone: phone.val(), info: info.val()}
             })
                 .done(function (message) {
                     console.log(message);
@@ -130,31 +137,12 @@ $(document).ready(() => {
         }
     })
 
-    var widthWind = $(this).width();
-    let headerMenu = $('#header #menu');
+    $('#burger').click((e) => {
+        $('#header').toggleClass('menu-open');
+    });
 
+    $('#header #menu .menu-item, #header-close').click((e) => {
+        $('#header').removeClass('menu-open');
+    });
 
-    $(window).resize(function (e) {
-        if (widthWind <= 767) {
-            $('#burger').click((e) => {
-                $('#header #menu').css('display', 'flex');
-            });
-
-            $('#header #menu .menu-item, #header-close').click((e) => {
-                $('#header #menu').css('display', 'none');
-            });
-
-            headerMenu.click((e) => {
-                if (e.target.id === 'menu') {
-                    $('#header #menu').hide();
-                }
-            });
-        }
-    })
-
-    $(window).resize(function (e) {
-        if (widthWind <= 768) {
-            headerMenu.css('display', 'flex');
-        }
-    })
 });

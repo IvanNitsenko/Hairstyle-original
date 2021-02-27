@@ -145,4 +145,8 @@ $(document).ready(() => {
         $('#header').removeClass('menu-open');
     });
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2

@@ -1099,7 +1099,11 @@
     }
 
     #about-me #i-text #i-credo {
+<<<<<<< HEAD
         text-align: center;
+=======
+       text-align: center;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 
     #about-me #i-text .i-description {
@@ -1120,13 +1124,27 @@
     }
 
     #gallery-hairstyle {
+<<<<<<< HEAD
         width: 350px;
+=======
+        width: 436px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         margin: 0 auto;
     }
 
     #gallery-decoration {
+<<<<<<< HEAD
         width: 350px;
+=======
+        width: 436px;
         margin: 0 auto;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
+        margin: 0 auto;
+        width: 436px;
+        height: 390px;
     }
 
     #gallery-decoration .gallery-decoration-img  {
@@ -1147,7 +1165,11 @@
     }
 
     #gallery-hairstyle .slick-prev {
+<<<<<<< HEAD
         left: -1px;
+=======
+        left: -2px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         top: -50px;
     }
 
@@ -1157,12 +1179,16 @@
     }
 
     #gallery-decoration .slick-prev {
+<<<<<<< HEAD
         left: -1px;
         top: -50px;
     }
 
     #gallery-decoration .slick-next {
         right: calc(50% - 158px);
+=======
+        left: -2px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         top: -50px;
     }
 
@@ -1478,6 +1504,7 @@
     }
 
     #gallery-hairstyle {
+<<<<<<< HEAD
         width: 350px;
     }
 
@@ -1493,6 +1520,23 @@
 
     #gallery-decoration {
         width: 350px;
+=======
+        width: 390px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img {
+        width: 390px;
+        height: 504px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img img {
+        width: 390px;
+        height: 504px;
+    }
+
+    #gallery-decoration {
+        width: 390px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 
     #gallery-decoration .gallery-decoration-img {
@@ -1511,7 +1555,11 @@
     }
 
     #gallery-hairstyle .slick-next {
+<<<<<<< HEAD
         right: calc(50% - 159px);
+=======
+        right: calc(50% - 180px);
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         top: -60px;
     }
 
@@ -1521,7 +1569,11 @@
     }
 
     #gallery-decoration .slick-next {
+<<<<<<< HEAD
         right: calc(50% - 159px);
+=======
+        right: calc(50% - 180px);
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         top: -60px;
     }
 
@@ -1710,10 +1762,13 @@
     }
 
     #header-close {
+<<<<<<< HEAD
         display: block;
     }
 
     #reviews-container .review-block .review-text .br-mobile {
+=======
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
         display: block;
     }
 
@@ -1842,7 +1897,11 @@
     }
 
     #plus-container .plus-block .plus-text-block {
+<<<<<<< HEAD
         font-size: 16px;
+=======
+       font-size: 16px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 
     #price #price-block-container .price-block .price-title {
@@ -1986,12 +2045,15 @@
         line-height: 38px;
     }
 
+<<<<<<< HEAD
     #about-me #i-text #i-credo {
         margin: 0 auto 20px auto;
         text-align: center;
         max-width: 240px;
     }
 
+=======
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     #works-container #works-container-title {
         margin-bottom: 40px;
     }
@@ -2002,7 +2064,11 @@
     }
 
     #works-container #works-title {
+<<<<<<< HEAD
         width: 270px;
+=======
+        width: 280px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 
     #gallery-decoration {
@@ -2020,12 +2086,21 @@
     }
 
     #gallery-hairstyle {
+<<<<<<< HEAD
         width: 270px;
     }
 
     #gallery-hairstyle .gallery-hairstyle-img {
         width: 270px;
         height: 350px;
+=======
+        width: 280px;
+    }
+
+    #gallery-hairstyle .gallery-hairstyle-img {
+        width: 280px;
+        height: 362px;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 
     #gallery-hairstyle .gallery-hairstyle-img img {
@@ -2198,11 +2273,60 @@
         width: 280px;
     }
 
+<<<<<<< HEAD
     #up {
         right: -12px;
+=======
+    #gallery-hairstyle .gallery-hairstyle-img img {
+        width: 100%;
+        height: 100%;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
     }
 }
 
+@media screen and (max-height: 379px) {
+    #form-container #form-block {
+        height: 100vh;
+        overflow-y: auto;
+    }
+}
+
+<<<<<<< HEAD
+@media screen and (max-height: 269px) {
+    #form-answer {
+        padding: 10px 15px;
+    }
+
+    #form-answer #form-answer-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+=======
+    #gallery-decoration .gallery-decoration-img {
+        width: 280px;
+        height: 250px;
+    }
+
+    #gallery-decoration .gallery-decoration-img img {
+        width: 100%;
+        height: 100%;
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2
+    }
+}
+
+<<<<<<< HEAD
+    #form-answer #carry {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #form-answer #form-answer-text {
+        width: 140px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+=======
 @media screen and (max-height: 379px) {
     #form-container #form-block {
         height: 100vh;
@@ -2231,4 +2355,4 @@
         line-height: 25px;
     }
 }
-
+>>>>>>> e546eed3ee8e6cc4733b6021502811bb9d0549a2

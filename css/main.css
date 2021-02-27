@@ -123,6 +123,16 @@ body {
     margin-left: 150px;
 }
 
+#header-phone-block a {
+    text-decoration: none;
+    color: #00204C;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 23px;
+}
+
 #header-svg {
     margin-right: 8px;
     width: 27px;
@@ -196,6 +206,7 @@ body {
     background: rgb(224,229,230);
     background: linear-gradient(90deg, rgba(224,229,230,1) 50%, rgba(190,201,202,1) 50%);
     margin-top: -1px;
+    margin-bottom: -1px;
 }
 
 #about-me #i {
@@ -234,7 +245,7 @@ body {
     font-family: Montserrat-Medium, sans-serif;
     font-size: 20px;
     color: #00204C;
-    margin-bottom: 54px;
+    margin-bottom: 69px;
 }
 
 #about-me #i-text .i-description {
@@ -654,6 +665,10 @@ body {
     position: relative;
 }
 
+#footer-container a {
+    text-decoration: none;
+}
+
 #footer-container #footer-text-block #footer-text-title {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 45px;
@@ -921,7 +936,7 @@ input[type='number'] {
     height: 822px;
     position: absolute;
     top: 0;
-    right: -370px;
+    right: -321px;
     z-index: -1;
 }
 
@@ -939,8 +954,8 @@ input[type='number'] {
     width: 849px;
     height: 1000px;
     position: absolute;
-    bottom: 155px;
-    right: -485px;
+    bottom: -46px;
+    right: -417px;
     z-index: -1;
 }
 
@@ -978,4 +993,61 @@ input[type='number'] {
 
 #footnote-br {
     display: none;
+}
+
+#header-svg-2 {
+    display: none;
+}
+
+.br-mobile {
+    display: none;
+}
+
+#up {
+    position: absolute;
+    bottom: 1px;
+    right: 33px;
+    animation: pulse 1s linear infinite;
+}
+
+#up:hover {
+    cursor: pointer;
+}
+
+#header-phone-block:hover {
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -o-transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -o-transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
 }

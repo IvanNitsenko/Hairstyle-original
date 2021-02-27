@@ -12,7 +12,7 @@ $(document).ready(() => {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1433,
+                breakpoint: 1101,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -21,7 +21,7 @@ $(document).ready(() => {
                 }
             },
             {
-                breakpoint: 1023,
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -40,7 +40,7 @@ $(document).ready(() => {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1180,
+                breakpoint: 1101,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -50,6 +50,12 @@ $(document).ready(() => {
             }
         ]
     });
+
+    $('.work-title').click((e) => {
+        galleryHairstyle.slick('refresh');
+        galleryDecoration.slick('refresh');
+    });
+
 
     hairstyle.click((e) => {
         galleryHairstyle.css('display', 'block');
@@ -93,6 +99,7 @@ $(document).ready(() => {
     $('#reserved-button').on('click', function () {
         let name = $('#name');
         let phone = $('#form-phone');
+        let info = $('#info');
         let hasError = false;
         name.attr("placeholder", 'Ваше имя*');
         phone.attr("placeholder", 'Ваш телефон*');
@@ -117,7 +124,7 @@ $(document).ready(() => {
             $.ajax({
                 method: "POST",
                 url: '',
-                data: {name: name.val(), phone: phone.val(), procedure: procedure.val(), time: time.val()}
+                data: {name: name.val(), phone: phone.val(), info: info.val()}
             })
                 .done(function (message) {
                     console.log(message);
@@ -131,16 +138,11 @@ $(document).ready(() => {
     })
 
     $('#burger').click((e) => {
-        $('#header #menu').css('display', 'flex');
+        $('#header').toggleClass('menu-open');
     });
 
     $('#header #menu .menu-item, #header-close').click((e) => {
-        $('#header #menu').css('display', 'none');
+        $('#header').removeClass('menu-open');
     });
 
-    $('#header #menu').click((e) => {
-        if (e.target.id === 'menu') {
-            $('#header #menu').hide();
-        }
-    });
 });

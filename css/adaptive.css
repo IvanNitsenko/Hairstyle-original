@@ -1970,7 +1970,7 @@
 
 @media screen and (max-width: 479px) {
     #main-container {
-        width: 340px;
+        width: 380px;
     }
 
     #main-title {
@@ -2116,7 +2116,7 @@
 
 @media screen and (max-width: 379px) {
     #main-container {
-        width: 280px;
+        width: 320px;
     }
 
     #main-bg2 {

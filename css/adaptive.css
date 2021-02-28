@@ -2149,6 +2149,10 @@
     #header #menu a {
         font-size: 32px;
     }
+    
+    #header.menu-open #menu {
+        margin-left: -20px;
+    }
 
     #main-container #main-block {
         margin-top: -160px;

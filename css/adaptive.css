@@ -1464,6 +1464,10 @@
         bottom: 33px;
         right: -315px;
     }
+    
+    #about-me {
+        z-index: 4;
+    }
 
     #about-me #i {
         padding-bottom: 45px;

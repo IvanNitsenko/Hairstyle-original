@@ -1997,6 +1997,10 @@
         line-height: 45px;
         width: 240px;
     }
+    
+    #header.menu-open #menu {
+        margin-left: -20px;
+    }
 
     #main-title {
         width: 280px;
@@ -2148,10 +2152,6 @@
 
     #header #menu a {
         font-size: 32px;
-    }
-    
-    #header.menu-open #menu {
-        margin-left: -20px;
     }
 
     #main-container #main-block {
